@@ -1,0 +1,16 @@
+{
+  "compatibility_date": "2025-10-08",
+  "main": "src/index.ts",
+  "name": "igaming-aff-tracker",
+  "upload_source_maps": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "54d11937-a0a6-41c1-9442-aefef9d4a5de",
+      "database_name": "d1-igaming-aff-tracker"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
