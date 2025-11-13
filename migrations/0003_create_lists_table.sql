@@ -1,0 +1,8 @@
+-- Migration number: 0003 	 2024-01-08T10:01:00.000Z
+CREATE TABLE IF NOT EXISTS lists (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    site_id INTEGER NOT NULL,
+    name TEXT NOT NULL,
+    url TEXT NOT NULL,
+    FOREIGN KEY (site_id) REFERENCES sites(id)
+);
